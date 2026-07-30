@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="status_healthy">#00E676</color>
+    <color name="status_warning">#FFC107</color>
+    <color name="status_critical">#FF5252</color>
+    <color name="background_dark">#121212</color>
+    <color name="surface_dark">#1E1E1E</color>
+</resources>

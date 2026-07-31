@@ -23,7 +23,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="\u25CF HEALTHY"
+        android:text="● HEALTHY"
         android:textColor="#00E676"
         android:textSize="16sp"
         android:textStyle="bold" />
@@ -85,6 +85,26 @@
         android:backgroundTint="#2E2E2E"
         android:text="View Logs"
         android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnScanStorage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#2E2E2E"
+        android:text="Scan External Storage"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/tvStorageReport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="#1E1E1E"
+        android:padding="16dp"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="13sp" />
 
 </LinearLayout>
 </ScrollView>

@@ -74,4 +74,4 @@ def proxy(subpath):
 
 if __name__ == "__main__":
     logger.info(f"Zey OS proxy starting. API key: {API_KEY[:12]}... (see ~/.zeyos_api_key)")
-    app.run(host="127.0.0.1", port=8787)
+    app.run(host="127.0.0.1", port=8787, threaded=True)
